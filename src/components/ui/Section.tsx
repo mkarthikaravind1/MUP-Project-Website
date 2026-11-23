@@ -17,15 +17,15 @@ export function Section({ id, eyebrow, title, intro, children, alt = false, clas
     <section
       id={id}
       aria-labelledby={`${id}-title`}
-      className={`defer-render py-20 sm:py-24 ${alt ? 'bg-bg-alt' : ''} ${className}`}
+      className={`defer-render py-10 sm:py-12 ${alt ? 'bg-bg-alt' : ''} ${className}`}
     >
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        <Reveal className="mx-auto mb-12 max-w-2xl text-center">
+        <Reveal className="mx-auto mb-6 max-w-2xl text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.14em] text-brand">{eyebrow}</p>
-          <h2 id={`${id}-title`} className="mt-3 text-3xl font-bold text-ink sm:text-4xl">
+          <h2 id={`${id}-title`} className="mt-2 text-3xl font-bold text-ink sm:text-4xl">
             {title}
           </h2>
-          {intro && <p className="mt-4 text-lg leading-relaxed text-muted">{intro}</p>}
+          {intro && <p className="mt-3 text-lg leading-relaxed text-muted">{intro}</p>}
         </Reveal>
         {children}
       </div>

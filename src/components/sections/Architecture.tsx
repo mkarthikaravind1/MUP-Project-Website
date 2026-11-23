@@ -155,7 +155,7 @@ export function Architecture() {
         <Tall />
       </Reveal>
 
-      <h3 className="mt-14 mb-6 text-center text-xl font-bold text-ink">Tech stack, and why we chose it</h3>
+      <h3 className="mt-8 mb-4 text-center text-xl font-bold text-ink">Tech stack, and why we chose it</h3>
       <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
         {architecture.stack
           .slice()

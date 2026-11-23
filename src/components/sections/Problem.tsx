@@ -24,7 +24,7 @@ export function Problem() {
         ))}
       </div>
 
-      <div className="mt-14 grid items-start gap-8 lg:grid-cols-[1fr_1.6fr]">
+      <div className="mt-8 grid items-start gap-8 lg:grid-cols-[1fr_1.6fr]">
         <Reveal>
           <h3 className="text-xl font-bold text-ink">{problem.triedTitle}</h3>
           <ul className="mt-4 space-y-3">

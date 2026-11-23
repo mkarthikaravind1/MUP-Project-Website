@@ -20,7 +20,7 @@ export function HowItWorks() {
         {how.steps.map((s, i) => {
           const right = i % 2 === 1
           return (
-            <li key={s.title} className="relative pb-10 pl-16 last:pb-0 sm:grid sm:grid-cols-2 sm:gap-12 sm:pl-0">
+            <li key={s.title} className="relative pb-6 pl-16 last:pb-0 sm:grid sm:grid-cols-2 sm:gap-12 sm:pl-0">
               <m.span
                 initial={{ scale: 0.6, opacity: 0 }}
                 whileInView={{ scale: 1, opacity: 1 }}

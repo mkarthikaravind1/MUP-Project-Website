@@ -6,7 +6,7 @@ import { GithubIcon } from './ui/GithubIcon'
 export function Footer() {
   return (
     <footer className="border-t border-line bg-surface">
-      <div className="mx-auto grid max-w-6xl gap-10 px-4 py-12 sm:px-6 md:grid-cols-[1.4fr_1fr_1fr]">
+      <div className="mx-auto grid max-w-6xl gap-8 px-4 py-8 sm:px-6 md:grid-cols-[1.4fr_1fr_1fr]">
         <div>
           <Logo />
           <p className="mt-4 max-w-sm text-sm leading-relaxed text-muted">

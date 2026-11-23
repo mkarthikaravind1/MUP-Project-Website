@@ -6,15 +6,15 @@ import { Section } from '../ui/Section'
 export function Roadmap() {
   return (
     <Section id="roadmap" eyebrow={roadmap.eyebrow} title={roadmap.title} intro={roadmap.intro}>
-      <div className="grid gap-10 lg:grid-cols-2">
+      <div className="grid gap-8 lg:grid-cols-2">
         <div>
-          <h3 className="mb-6 flex items-center gap-2 text-lg font-bold text-ink">
+          <h3 className="mb-4 flex items-center gap-2 text-lg font-bold text-ink">
             <span className="flex size-7 items-center justify-center rounded-full bg-success text-white dark:text-[#04140a]">
               <Check className="size-4" aria-hidden="true" />
             </span>
             Done
           </h3>
-          <ol className="relative space-y-6 border-l-2 border-success/40 pl-6">
+          <ol className="relative space-y-4 border-l-2 border-success/40 pl-6">
             {roadmap.done.map((m, i) => (
               <Reveal as="li" key={m.title} delay={i * 0.04} className="relative">
                   <span className="absolute top-1.5 -left-[31px] size-3 rounded-full border-2 border-bg bg-success ring-2 ring-success/30" aria-hidden="true" />
@@ -26,7 +26,7 @@ export function Roadmap() {
           </ol>
         </div>
         <div>
-          <h3 className="mb-6 flex items-center gap-2 text-lg font-bold text-ink">
+          <h3 className="mb-4 flex items-center gap-2 text-lg font-bold text-ink">
             <span className="flex size-7 items-center justify-center rounded-full bg-brand text-white dark:text-[#06121d]">
               <CircleDashed className="size-4" aria-hidden="true" />
             </span>

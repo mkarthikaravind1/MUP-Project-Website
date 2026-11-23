@@ -5,8 +5,8 @@ import { Reveal } from '../ui/Reveal'
 
 export function LiveMvp() {
   return (
-    <section id="live" aria-labelledby="live-title" className="px-4 py-16 sm:px-6">
-      <Reveal className="relative mx-auto max-w-5xl overflow-hidden rounded-3xl bg-[#0f3b5c] px-6 py-12 text-white shadow-2xl sm:px-12 dark:bg-[#0d2a42]">
+    <section id="live" aria-labelledby="live-title" className="px-4 py-6 sm:px-6">
+      <Reveal className="relative mx-auto max-w-5xl overflow-hidden rounded-3xl bg-[#0f3b5c] px-6 py-10 text-white shadow-2xl sm:px-12 dark:bg-[#0d2a42]">
         <div className="pointer-events-none absolute -top-24 -right-24 size-72 rounded-full bg-[#1f6fd6]/40 blur-3xl" />
         <div className="pointer-events-none absolute -bottom-24 -left-16 size-64 rounded-full bg-[#f59e0b]/25 blur-3xl" />
         <div className="relative grid items-center gap-8 md:grid-cols-[1.3fr_1fr]">

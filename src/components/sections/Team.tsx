@@ -37,7 +37,7 @@ export function Team() {
         ))}
       </div>
 
-      <Reveal className="mt-10">
+      <Reveal className="mt-8">
         <div className="flex flex-col items-center gap-5 rounded-3xl border border-line bg-surface p-6 text-center shadow-card sm:flex-row sm:p-8 sm:text-left">
           <span className="flex size-14 shrink-0 items-center justify-center rounded-2xl bg-accent-soft text-accent">
             <Heart className="size-6" aria-hidden="true" />

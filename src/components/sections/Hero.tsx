@@ -21,11 +21,11 @@ export function Hero() {
   const call = heroCalls[idx]
 
   return (
-    <section id="top" aria-labelledby="hero-title" className="relative overflow-hidden pt-10 pb-20 sm:pt-16">
+    <section id="top" aria-labelledby="hero-title" className="relative overflow-hidden pt-6 pb-8 sm:pt-8">
       <div className="bg-grid pointer-events-none absolute inset-0 -z-10" />
       <div className="pointer-events-none absolute -top-40 left-1/2 -z-10 h-[520px] w-[900px] max-w-[160vw] -translate-x-1/2 rounded-full bg-brand/15 blur-3xl" />
 
-      <div className="mx-auto grid max-w-6xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-[1fr_1.1fr]">
+      <div className="mx-auto grid max-w-6xl items-center gap-8 px-4 sm:px-6 lg:grid-cols-[1fr_1.1fr]">
         <div>
           <p className="inline-flex items-center gap-2 rounded-full border border-line bg-surface px-3 py-1 text-xs font-semibold text-muted shadow-sm">
             <span className="live-dot size-2 rounded-full bg-success" />
